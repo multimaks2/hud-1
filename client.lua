@@ -114,7 +114,8 @@ function DxDrawHudConcept()
         dxDrawRectangleCr(x-255,90,oxigenio/10*2.2,10,5, tocolor(255, 255, 255,200),false,false,false,true)
     end
     ------------------------------------------------------------------------------------
-    dxDrawText(hours..":"..minutes,x,y,x-150,80,tocolor(255,255,255,200),0.85,Font,"right","center",false,false,false,true)
+	 local timehour, timeminute = getTime()
+    dxDrawText(timehour..":"..timeminute,x,y,x-150,80,tocolor(255,255,255,200),0.85,Font,"right","center",false,false,false,true)
     dxDrawText(""..convertNumber(money).." ₽ |", x-0, 5,x-55.5,280, tocolor(255,255,255,255),0.7,Font, "right", "center",false,false,false,true)
 
 

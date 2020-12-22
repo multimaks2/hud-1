@@ -1,0 +1,9 @@
+<meta>
+	<script src="client.lua" type="client" cache="false"/>
+	<file src="file/Gilroy-Medium.ttf"/>
+	<file src="file/fps.ttf"/>
+<file src="images/wanted_a.png" />
+<file src="images/wanted.png" />
+	<file src="circle.fx"/>  
+	<file src="ring-round.fx"/>  	
+</meta>
